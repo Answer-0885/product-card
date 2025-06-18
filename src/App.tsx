@@ -1,5 +1,6 @@
 import ProductCard from './components/ProductCard';
 import './App.css';
+import image from '../public/assets/coffee.jpg';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         origin="Эфиопия"
         price={34900}
         currency="RUB"
-        imageUrl="../public/assets/coffee.jpg"
+        imageUrl={image}
       />
   );
 }
